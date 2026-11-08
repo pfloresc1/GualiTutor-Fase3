@@ -186,6 +186,16 @@ Permite personalizar la aplicación mediante el registro del nombre del estudian
 
 La información se guarda localmente con SharedPreferences y se recupera cuando el usuario vuelve a ingresar a la pantalla.
 
+**Figura 7. Pantalla de configuración del estudiante**
+
+La siguiente imagen muestra la clase `ConfiguracionActivity.java` en Android Studio y la pantalla de configuración de Guali Tutor ejecutándose en el emulador Android.
+
+Esta funcionalidad permite al estudiante ingresar y guardar su nombre para personalizar su experiencia de aprendizaje.
+
+La aplicación utiliza `SharedPreferences` para almacenar localmente la configuración y recuperar el nombre registrado cuando el estudiante vuelve a ingresar a esta sección.
+
+![Figura 8. Configuración del estudiante en Guali Tutor](imagenes/08-configuracion.png)
+
 #### 8.6. Archivos XML
 
 Los archivos XML permiten definir la apariencia visual de las pantallas.
@@ -200,7 +210,7 @@ Los principales archivos son:
 
 Cada archivo contiene los componentes gráficos utilizados en su pantalla correspondiente, como botones, textos y campos de entrada.
 
-**Figura 7. Diseño de la pantalla principal de Guali Tutor**
+**Figura 9. Diseño de la pantalla principal de Guali Tutor**
 
 En la siguiente captura se muestra el archivo `activity_main.xml` abierto en Android Studio, donde se define la estructura visual de la pantalla principal. A la derecha se observa la aplicación ejecutándose en el emulador Android, con los botones Ver lecciones, Historial y Configuración.
 
