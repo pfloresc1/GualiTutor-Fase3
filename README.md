@@ -119,6 +119,10 @@ Es la clase principal de la aplicación.
 
 Su función es mostrar el menú de inicio y permitir la navegación hacia las secciones de lecciones, historial y configuración.
 
+**Figura 2. Código de MainActivity.java y pantalla principal de Guali Tutor.**
+
+![Código de MainActivity.java](imagenes/03-main-activity.png)
+
 #### 8.2. LeccionesActivity.java
 
 Esta clase permite visualizar el listado de las tres lecciones disponibles.
@@ -164,7 +168,7 @@ Los principales archivos son:
 
 Cada archivo contiene los componentes gráficos utilizados en su pantalla correspondiente, como botones, textos y campos de entrada.
 
-**Figura 2. Diseño de la pantalla principal de Guali Tutor**
+**Figura 3. Diseño de la pantalla principal de Guali Tutor**
 
 En la siguiente captura se muestra el archivo `activity_main.xml` abierto en Android Studio, donde se define la estructura visual de la pantalla principal. A la derecha se observa la aplicación ejecutándose en el emulador Android, con los botones Ver lecciones, Historial y Configuración.
 
