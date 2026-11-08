@@ -226,4 +226,16 @@ En la siguiente captura se muestra el archivo `activity_main.xml` abierto en And
 
 ![Pantalla principal de Guali Tutor](imagenes/01-pantalla-principal.png)
 
+### 9. Pruebas de funcionamiento de la aplicación
+
+**Figura 10. Verificación del progreso de aprendizaje**
+
+La siguiente imagen muestra la ejecución de Guali Tutor en el emulador Android después de completar las tres lecciones de programación.
+
+En la pantalla de historial se observa que las lecciones 1, 2 y 3 aparecen con el estado "Completada", lo que permite verificar que la aplicación actualiza correctamente el progreso del estudiante.
+
+La información del progreso se almacena localmente mediante `SharedPreferences`, permitiendo recuperar el estado de las lecciones cuando el usuario consulta nuevamente el historial.
+
+![Figura 10. Verificación del funcionamiento de Guali Tutor](imagenes/10-verificacion-funcionamiento.png)
+
 
