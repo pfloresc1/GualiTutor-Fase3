@@ -154,6 +154,16 @@ Incluye:
 
 El progreso se guarda localmente utilizando SharedPreferences.
 
+**Figura 5. Visualización del detalle de una lección y registro del progreso**
+
+La siguiente imagen muestra la implementación de la clase `DetalleLeccionActivity.java` en Android Studio, junto con la visualización de la primera lección en el emulador Android.
+
+En esta pantalla, el estudiante puede consultar la explicación del tema, observar un ejemplo práctico desarrollado en Java y marcar la lección como completada.
+
+El progreso se almacena localmente mediante `SharedPreferences`, permitiendo conservar el estado de las lecciones completadas.
+
+![Figura 6. Detalle de una lección y registro del progreso](imagenes/06-detalle-leccion.png)
+
 #### 8.4. HistorialActivity.java
 
 Permite consultar el progreso de aprendizaje del estudiante.
@@ -180,7 +190,7 @@ Los principales archivos son:
 
 Cada archivo contiene los componentes gráficos utilizados en su pantalla correspondiente, como botones, textos y campos de entrada.
 
-**Figura 5. Diseño de la pantalla principal de Guali Tutor**
+**Figura 6. Diseño de la pantalla principal de Guali Tutor**
 
 En la siguiente captura se muestra el archivo `activity_main.xml` abierto en Android Studio, donde se define la estructura visual de la pantalla principal. A la derecha se observa la aplicación ejecutándose en el emulador Android, con los botones Ver lecciones, Historial y Configuración.
 
