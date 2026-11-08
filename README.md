@@ -158,4 +158,6 @@ Los principales archivos son:
 
 Cada archivo contiene los componentes gráficos utilizados en su pantalla correspondiente, como botones, textos y campos de entrada.
 
+![Pantalla principal de Guali Tutor](imagenes/01-pantalla-principal.png)
+
 
