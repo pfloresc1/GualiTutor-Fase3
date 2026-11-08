@@ -170,6 +170,16 @@ Permite consultar el progreso de aprendizaje del estudiante.
 
 Muestra las lecciones completadas y pendientes, recuperando la información almacenada mediante SharedPreferences.
 
+**Figura 6. Visualización del historial de aprendizaje**
+
+La siguiente imagen muestra la implementación de la clase `HistorialActivity.java` en Android Studio y la pantalla del historial de aprendizaje ejecutándose en el emulador Android.
+
+Esta funcionalidad permite consultar el progreso del estudiante, mostrando cuáles lecciones han sido completadas y cuáles permanecen pendientes.
+
+En el ejemplo presentado, las lecciones 1 y 2 aparecen completadas, mientras que la lección 3 se encuentra pendiente. La aplicación utiliza `SharedPreferences` para recuperar el progreso almacenado localmente.
+
+![Figura 7. Historial de aprendizaje de Guali Tutor](imagenes/07-historial.png)
+
 #### 8.5. ConfiguracionActivity.java
 
 Permite personalizar la aplicación mediante el registro del nombre del estudiante.
@@ -190,7 +200,7 @@ Los principales archivos son:
 
 Cada archivo contiene los componentes gráficos utilizados en su pantalla correspondiente, como botones, textos y campos de entrada.
 
-**Figura 6. Diseño de la pantalla principal de Guali Tutor**
+**Figura 7. Diseño de la pantalla principal de Guali Tutor**
 
 En la siguiente captura se muestra el archivo `activity_main.xml` abierto en Android Studio, donde se define la estructura visual de la pantalla principal. A la derecha se observa la aplicación ejecutándose en el emulador Android, con los botones Ver lecciones, Historial y Configuración.
 
