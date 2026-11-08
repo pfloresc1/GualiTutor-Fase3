@@ -238,4 +238,14 @@ La información del progreso se almacena localmente mediante `SharedPreferences`
 
 ![Figura 10. Verificación del funcionamiento de Guali Tutor](imagenes/10-verificacion-funcionamiento.png)
 
+### 10. Conclusiones
+
+El desarrollo de Guali Tutor – Fase 3 permitió implementar una aplicación móvil educativa utilizando Android Studio, Java y XML, integrando diferentes pantallas para facilitar el aprendizaje de conceptos básicos de programación.
+
+La implementación de `SharedPreferences` permitió almacenar localmente el nombre del estudiante y el progreso de las lecciones, conservando esta información para futuras consultas dentro de la aplicación.
+
+Las pruebas realizadas en el emulador Android permitieron comprobar el funcionamiento de la navegación entre pantallas, la visualización del contenido educativo y la actualización del historial de aprendizaje.
+
+Finalmente, la publicación del código fuente y del tutorial en GitHub facilita la documentación del proceso de desarrollo y permite consultar la estructura y las funcionalidades implementadas.
+
 
