@@ -46,3 +46,58 @@ La aplicación está organizada en las siguientes pantallas:
 5. ConfiguracionActivity: configuración del nombre del estudiante.
 
 Cada pantalla utiliza un archivo XML para definir su diseño visual.
+
+### 6. Prerrequisitos para desarrollar la aplicación
+
+Para desarrollar y ejecutar Guali Tutor se necesitan las siguientes herramientas:
+
+- Una computadora con Windows y espacio suficiente para Android Studio y el emulador.
+- Android Studio instalado.
+- Android SDK configurado desde Android Studio.
+- Java como lenguaje de programación.
+- Un emulador Android o un dispositivo físico compatible.
+- Conexión a Internet para descargar las dependencias necesarias.
+
+### 7. Instalación y configuración de Android Studio
+
+#### Paso 1. Descargar Android Studio
+
+Ingresar al sitio oficial:
+
+https://developer.android.com/studio
+
+Seleccionar la opción de descarga correspondiente al sistema operativo.
+
+#### Paso 2. Instalar Android Studio
+
+Ejecutar el instalador descargado y seguir las instrucciones del asistente.
+
+Verificar que se instalen los componentes necesarios, incluyendo Android SDK.
+
+#### Paso 3. Crear un nuevo proyecto
+
+1. Abrir Android Studio.
+2. Seleccionar New Project.
+3. Elegir una plantilla basada en Views, como Empty Views Activity.
+4. Asignar el nombre GualiTutorFase3.
+5. Configurar el paquete com.guali.tutor.
+6. Seleccionar Java como lenguaje.
+7. Elegir el nivel mínimo de Android compatible.
+8. Presionar Finish y esperar la sincronización de Gradle.
+
+#### Paso 4. Configurar el emulador
+
+1. Abrir Device Manager desde Android Studio.
+2. Seleccionar Create Virtual Device.
+3. Elegir un dispositivo de tipo Phone.
+4. Seleccionar y descargar una imagen del sistema Android compatible.
+5. Finalizar la configuración.
+6. Iniciar el emulador.
+
+#### Paso 5. Ejecutar el proyecto
+
+1. Seleccionar el emulador configurado.
+2. Presionar Run en Android Studio.
+3. Esperar la compilación e instalación.
+4. Verificar que la aplicación se abra correctamente.
+
