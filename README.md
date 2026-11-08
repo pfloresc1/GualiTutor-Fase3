@@ -238,7 +238,15 @@ La información del progreso se almacena localmente mediante `SharedPreferences`
 
 ![Figura 10. Verificación del funcionamiento de Guali Tutor](imagenes/10-verificacion-funcionamiento.png)
 
-### 10. Conclusiones
+## 10. Verificación de compilación
+
+Se realizó la compilación del proyecto Guali Tutor – Fase 3 utilizando la opción Assemble Project de Android Studio.
+
+El proceso finalizó correctamente con el mensaje BUILD SUCCESSFUL in 13s, confirmando que el proyecto se compiló sin errores.
+
+![Compilación exitosa de Guali Tutor](imagenes/11-compilacion-exitosa.png)
+
+### 11. Conclusiones
 
 El desarrollo de Guali Tutor – Fase 3 permitió implementar una aplicación móvil educativa utilizando Android Studio, Java y XML, integrando diferentes pantallas para facilitar el aprendizaje de conceptos básicos de programación.
 
@@ -247,5 +255,4 @@ La implementación de `SharedPreferences` permitió almacenar localmente el nomb
 Las pruebas realizadas en el emulador Android permitieron comprobar el funcionamiento de la navegación entre pantallas, la visualización del contenido educativo y la actualización del historial de aprendizaje.
 
 Finalmente, la publicación del código fuente y del tutorial en GitHub facilita la documentación del proceso de desarrollo y permite consultar la estructura y las funcionalidades implementadas.
-
 
