@@ -135,6 +135,12 @@ Esta clase permite visualizar el listado de las tres lecciones disponibles.
 
 El usuario puede seleccionar una lección para consultar su contenido educativo.
 
+**Figura 4. Código de LeccionesActivity.java y listado de lecciones.**
+
+La imagen muestra la implementación de los botones que permiten seleccionar las tres lecciones disponibles. También se observa la interfaz gráfica de la sección Mis lecciones ejecutándose en el emulador Android.
+
+![Código de LeccionesActivity.java](imagenes/05-lecciones-activity.png)
+
 #### 8.3. DetalleLeccionActivity.java
 
 Se encarga de mostrar la información correspondiente a la lección seleccionada.
@@ -174,7 +180,7 @@ Los principales archivos son:
 
 Cada archivo contiene los componentes gráficos utilizados en su pantalla correspondiente, como botones, textos y campos de entrada.
 
-**Figura 4. Diseño de la pantalla principal de Guali Tutor**
+**Figura 5. Diseño de la pantalla principal de Guali Tutor**
 
 En la siguiente captura se muestra el archivo `activity_main.xml` abierto en Android Studio, donde se define la estructura visual de la pantalla principal. A la derecha se observa la aplicación ejecutándose en el emulador Android, con los botones Ver lecciones, Historial y Configuración.
 
