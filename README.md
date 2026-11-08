@@ -196,6 +196,16 @@ La aplicación utiliza `SharedPreferences` para almacenar localmente la configur
 
 ![Figura 8. Configuración del estudiante en Guali Tutor](imagenes/08-configuracion.png)
 
+**Figura 8. Almacenamiento local mediante SharedPreferences**
+
+La siguiente imagen muestra la utilización de `SharedPreferences` en la clase `ConfiguracionActivity.java` para administrar la información del estudiante.
+
+Mediante `getSharedPreferences()`, la aplicación accede al almacenamiento local denominado `GualiTutorProgreso`. Posteriormente, utiliza `getString()` para recuperar el nombre del estudiante registrado anteriormente.
+
+Esta funcionalidad permite conservar la configuración del usuario y mostrar nuevamente su nombre cuando ingresa a la pantalla de configuración.
+
+![Figura 9. Almacenamiento local con SharedPreferences](imagenes/09-sharedpreferences.png)
+
 #### 8.6. Archivos XML
 
 Los archivos XML permiten definir la apariencia visual de las pantallas.
