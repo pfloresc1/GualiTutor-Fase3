@@ -158,6 +158,10 @@ Los principales archivos son:
 
 Cada archivo contiene los componentes gráficos utilizados en su pantalla correspondiente, como botones, textos y campos de entrada.
 
+**Figura 1. Diseño de la pantalla principal de Guali Tutor**
+
+En la siguiente captura se muestra el archivo `activity_main.xml` abierto en Android Studio, donde se define la estructura visual de la pantalla principal. A la derecha se observa la aplicación ejecutándose en el emulador Android, con los botones Ver lecciones, Historial y Configuración.
+
 ![Pantalla principal de Guali Tutor](imagenes/01-pantalla-principal.png)
 
 
