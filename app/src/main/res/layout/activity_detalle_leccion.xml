@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF8FF"
+    tools:context=".DetalleLeccionActivity">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/txtTituloLeccion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Detalle de la lección"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:textColor="#263238"
+                android:gravity="center"
+                android:layout_marginBottom="24dp" />
+
+            <TextView
+                android:id="@+id/txtDescripcionLeccion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aquí aparecerá la explicación de la lección seleccionada."
+                android:textSize="16sp"
+                android:textColor="#555555"
+                android:lineSpacingExtra="6dp"
+                android:layout_marginBottom="24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ejemplo práctico"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#263238"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:id="@+id/txtEjemploLeccion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El ejemplo de programación aparecerá aquí."
+                android:textSize="15sp"
+                android:textColor="#263238"
+                android:background="#EDE7F6"
+                android:padding="16dp"
+                android:layout_marginBottom="32dp" />
+
+            <Button
+                android:id="@+id/btnCompletarLeccion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Marcar como completada"
+                android:textAllCaps="false"
+                android:backgroundTint="#6750A4" />
+
+            <Button
+                android:id="@+id/btnVolverLecciones"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Volver a mis lecciones"
+                android:textAllCaps="false"
+                android:backgroundTint="#757575"
+                android:layout_marginTop="16dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
