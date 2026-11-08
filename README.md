@@ -123,6 +123,12 @@ Su función es mostrar el menú de inicio y permitir la navegación hacia las se
 
 ![Código de MainActivity.java](imagenes/03-main-activity.png)
 
+**Figura 3. Configuración de los botones y navegación entre pantallas.**
+
+La imagen muestra cómo se conectan los botones de la pantalla principal con sus componentes XML mediante `findViewById()`. También se observa el uso de `setOnClickListener()` e `Intent` para abrir las pantallas de Lecciones e Historial.
+
+![Navegación entre pantallas](imagenes/04-navegacion-pantallas.png)
+
 #### 8.2. LeccionesActivity.java
 
 Esta clase permite visualizar el listado de las tres lecciones disponibles.
@@ -168,7 +174,7 @@ Los principales archivos son:
 
 Cada archivo contiene los componentes gráficos utilizados en su pantalla correspondiente, como botones, textos y campos de entrada.
 
-**Figura 3. Diseño de la pantalla principal de Guali Tutor**
+**Figura 4. Diseño de la pantalla principal de Guali Tutor**
 
 En la siguiente captura se muestra el archivo `activity_main.xml` abierto en Android Studio, donde se define la estructura visual de la pantalla principal. A la derecha se observa la aplicación ejecutándose en el emulador Android, con los botones Ver lecciones, Historial y Configuración.
 
