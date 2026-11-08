@@ -101,3 +101,61 @@ Verificar que se instalen los componentes necesarios, incluyendo Android SDK.
 3. Esperar la compilación e instalación.
 4. Verificar que la aplicación se abra correctamente.
 
+### 8. Estructura del proyecto Android
+
+La aplicación Guali Tutor se desarrolló en Android Studio utilizando Java para la lógica de programación y XML para el diseño de las interfaces gráficas.
+
+El proyecto está organizado en diferentes clases y archivos que permiten separar las funcionalidades de la aplicación.
+
+#### 8.1. MainActivity.java
+
+Es la clase principal de la aplicación.
+
+Su función es mostrar el menú de inicio y permitir la navegación hacia las secciones de lecciones, historial y configuración.
+
+#### 8.2. LeccionesActivity.java
+
+Esta clase permite visualizar el listado de las tres lecciones disponibles.
+
+El usuario puede seleccionar una lección para consultar su contenido educativo.
+
+#### 8.3. DetalleLeccionActivity.java
+
+Se encarga de mostrar la información correspondiente a la lección seleccionada.
+
+Incluye:
+- Título de la lección.
+- Explicación del tema.
+- Ejemplo práctico en Java.
+- Botón para marcar la lección como completada.
+- Botón para regresar al listado de lecciones.
+
+El progreso se guarda localmente utilizando SharedPreferences.
+
+#### 8.4. HistorialActivity.java
+
+Permite consultar el progreso de aprendizaje del estudiante.
+
+Muestra las lecciones completadas y pendientes, recuperando la información almacenada mediante SharedPreferences.
+
+#### 8.5. ConfiguracionActivity.java
+
+Permite personalizar la aplicación mediante el registro del nombre del estudiante.
+
+La información se guarda localmente con SharedPreferences y se recupera cuando el usuario vuelve a ingresar a la pantalla.
+
+#### 8.6. Archivos XML
+
+Los archivos XML permiten definir la apariencia visual de las pantallas.
+
+Los principales archivos son:
+
+- activity_main.xml
+- activity_lecciones.xml
+- activity_detalle_leccion.xml
+- activity_historial.xml
+- activity_configuracion.xml
+
+Cada archivo contiene los componentes gráficos utilizados en su pantalla correspondiente, como botones, textos y campos de entrada.
+
+
