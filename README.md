@@ -107,6 +107,12 @@ La aplicación Guali Tutor se desarrolló en Android Studio utilizando Java para
 
 El proyecto está organizado en diferentes clases y archivos que permiten separar las funcionalidades de la aplicación.
 
+**Figura 1. Estructura del proyecto Guali Tutor en Android Studio**
+
+La imagen muestra la organización del proyecto Android, incluyendo las clases Java encargadas de la lógica y navegación de la aplicación, así como los archivos XML utilizados para diseñar las diferentes interfaces gráficas.
+
+![Figura 2. Estructura del proyecto Android](imagenes/02-estructura-proyecto.png)
+
 #### 8.1. MainActivity.java
 
 Es la clase principal de la aplicación.
@@ -158,7 +164,7 @@ Los principales archivos son:
 
 Cada archivo contiene los componentes gráficos utilizados en su pantalla correspondiente, como botones, textos y campos de entrada.
 
-**Figura 1. Diseño de la pantalla principal de Guali Tutor**
+**Figura 2. Diseño de la pantalla principal de Guali Tutor**
 
 En la siguiente captura se muestra el archivo `activity_main.xml` abierto en Android Studio, donde se define la estructura visual de la pantalla principal. A la derecha se observa la aplicación ejecutándose en el emulador Android, con los botones Ver lecciones, Historial y Configuración.
 
